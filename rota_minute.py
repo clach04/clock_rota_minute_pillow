@@ -33,6 +33,7 @@ else:
 print(circle_box)
 
 
+background_color = 'white'
 digit_color = 'black'
 hour_color = 'blue'
 arc_width = min_pixel_length // 10  # pixels
@@ -63,7 +64,7 @@ clock_font_box = clock_font.getbbox('00')
 clock_font_width, clock_font_height = clock_font_box[2], clock_font_box[3]
 print('clock_font_box %r' % (clock_font_box,))
 
-image = Image.new('RGB', screen_res, 'white')
+image = Image.new('RGB', screen_res, background_color)
 draw = ImageDraw.Draw(image)
 
 
