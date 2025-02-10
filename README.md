@@ -1,2 +1,3 @@
-# clock_rota_minute_pillow
-Python Clock/Watchface using PIL/Pillow
+# clock rota minute pillow
+
+Python Clock/Watchface using PIL/Pillow similar to https://github.com/clach04/watchface_rota_minute/
